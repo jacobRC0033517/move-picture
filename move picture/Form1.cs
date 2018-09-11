@@ -16,7 +16,7 @@ namespace move_picture
         {
             InitializeComponent();
         }
-
+        // moves image to the right
         private void button1_Click(object sender, EventArgs e)
         {
             pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
