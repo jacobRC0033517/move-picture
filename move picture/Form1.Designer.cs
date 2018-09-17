@@ -102,31 +102,31 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(691, 33);
+            this.button6.Location = new System.Drawing.Point(683, 19);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(48, 27);
+            this.button6.Size = new System.Drawing.Size(57, 35);
             this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
+            this.button6.Text = "diaonal";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(530, 136);
+            this.button7.Location = new System.Drawing.Point(527, 144);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(51, 52);
+            this.button7.Size = new System.Drawing.Size(54, 44);
             this.button7.TabIndex = 7;
-            this.button7.Text = "button7";
+            this.button7.Text = "diagonal";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(685, 146);
+            this.button8.Location = new System.Drawing.Point(699, 142);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(53, 42);
+            this.button8.Size = new System.Drawing.Size(40, 46);
             this.button8.TabIndex = 8;
-            this.button8.Text = "button8";
+            this.button8.Text = "diagonal";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
