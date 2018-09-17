@@ -21,20 +21,31 @@ namespace move_picture
         {
             pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
         }
-        // moves image to the left
+        // moves image up
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 5);
+            if (pictureBox1.Location.Y > 0)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 5);
+            }
+
         }
+
         // moves image down
         private void button3_Click(object sender, EventArgs e)
         {
-            pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 5);
+            if (pictureBox1.Location.X + 5 < ClientRectangle.Width - pictureBox1.Width)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 5);
+            }
         }
-        // moves image up
+        // moves image left
         private void button4_Click(object sender, EventArgs e)
         {
-            pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
+            if (pictureBox1.Location.X + 5 > 0)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
+            }
         }
         // moves image top-left
         private void button5_Click(object sender, EventArgs e)
